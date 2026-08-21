@@ -1,0 +1,27 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      [
+        "mumu",
+        "soe",
+        "poe",
+        "kai",
+        "mine"
+      ],
+      [
+        "kai",
+        "kai",
+        "mine",
+        "mine"
+      ]
+    ],
+    "expected": [
+      "mumu",
+      "kai",
+      "mine",
+      "soe",
+      "poe"
+    ]
+  }
+]

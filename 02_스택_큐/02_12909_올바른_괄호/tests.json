@@ -1,0 +1,30 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      "()()"
+    ],
+    "expected": true
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      "(())()"
+    ],
+    "expected": true
+  },
+  {
+    "name": "공개 예제 3",
+    "args": [
+      ")()("
+    ],
+    "expected": false
+  },
+  {
+    "name": "공개 예제 4",
+    "args": [
+      "(()("
+    ],
+    "expected": false
+  }
+]

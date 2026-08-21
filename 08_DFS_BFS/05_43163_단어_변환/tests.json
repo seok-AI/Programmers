@@ -1,0 +1,33 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      "hit",
+      "cog",
+      [
+        "hot",
+        "dot",
+        "dog",
+        "lot",
+        "log",
+        "cog"
+      ]
+    ],
+    "expected": 4
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      "hit",
+      "cog",
+      [
+        "hot",
+        "dot",
+        "dog",
+        "lot",
+        "log"
+      ]
+    ],
+    "expected": 0
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "경계 - 마지막 선수가 연속 두 번 추월",
+    "args": [
+      [
+        "aaa",
+        "bbb",
+        "ccc",
+        "ddd",
+        "eee"
+      ],
+      [
+        "eee",
+        "eee"
+      ]
+    ],
+    "expected": [
+      "aaa",
+      "bbb",
+      "eee",
+      "ccc",
+      "ddd"
+    ]
+  },
+  {
+    "name": "경계 - 연속 호출마다 역인덱스 갱신",
+    "args": [
+      [
+        "aaa",
+        "bbb",
+        "ccc",
+        "ddd",
+        "eee"
+      ],
+      [
+        "ddd",
+        "ddd",
+        "eee"
+      ]
+    ],
+    "expected": [
+      "aaa",
+      "ddd",
+      "bbb",
+      "eee",
+      "ccc"
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      "JEROEN"
+    ],
+    "expected": 56
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      "JAN"
+    ],
+    "expected": 23
+  }
+]

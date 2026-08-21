@@ -1,0 +1,30 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      "AAAAE"
+    ],
+    "expected": 6
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      "AAAE"
+    ],
+    "expected": 10
+  },
+  {
+    "name": "공개 예제 3",
+    "args": [
+      "I"
+    ],
+    "expected": 1563
+  },
+  {
+    "name": "공개 예제 4",
+    "args": [
+      "EIO"
+    ],
+    "expected": 1189
+  }
+]

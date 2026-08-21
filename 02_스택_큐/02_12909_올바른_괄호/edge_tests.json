@@ -1,0 +1,16 @@
+[
+  {
+    "name": "경계 - 닫히지 않은 괄호",
+    "args": [
+      "("
+    ],
+    "expected": false
+  },
+  {
+    "name": "함정 - 닫는 괄호가 먼저 등장",
+    "args": [
+      ")("
+    ],
+    "expected": false
+  }
+]

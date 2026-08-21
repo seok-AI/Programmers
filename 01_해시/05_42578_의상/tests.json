@@ -1,0 +1,42 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      [
+        [
+          "yellow_hat",
+          "headgear"
+        ],
+        [
+          "blue_sunglasses",
+          "eyewear"
+        ],
+        [
+          "green_turban",
+          "headgear"
+        ]
+      ]
+    ],
+    "expected": 5
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      [
+        [
+          "crow_mask",
+          "face"
+        ],
+        [
+          "blue_sunglasses",
+          "face"
+        ],
+        [
+          "smoky_makeup",
+          "face"
+        ]
+      ]
+    ],
+    "expected": 3
+  }
+]

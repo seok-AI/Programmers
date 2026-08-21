@@ -1,0 +1,52 @@
+[
+  {
+    "name": "경계 - 항공권 세 장의 단일 경로",
+    "args": [
+      [
+        [
+          "ICN",
+          "AAA"
+        ],
+        [
+          "AAA",
+          "BBB"
+        ],
+        [
+          "BBB",
+          "CCC"
+        ]
+      ]
+    ],
+    "expected": [
+      "ICN",
+      "AAA",
+      "BBB",
+      "CCC"
+    ]
+  },
+  {
+    "name": "함정 - 같은 항공권도 장수만큼 사용",
+    "args": [
+      [
+        [
+          "ICN",
+          "AAA"
+        ],
+        [
+          "ICN",
+          "AAA"
+        ],
+        [
+          "AAA",
+          "ICN"
+        ]
+      ]
+    ],
+    "expected": [
+      "ICN",
+      "AAA",
+      "ICN",
+      "AAA"
+    ]
+  }
+]

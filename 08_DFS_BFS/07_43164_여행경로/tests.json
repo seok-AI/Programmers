@@ -1,0 +1,62 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      [
+        [
+          "ICN",
+          "JFK"
+        ],
+        [
+          "HND",
+          "IAD"
+        ],
+        [
+          "JFK",
+          "HND"
+        ]
+      ]
+    ],
+    "expected": [
+      "ICN",
+      "JFK",
+      "HND",
+      "IAD"
+    ]
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      [
+        [
+          "ICN",
+          "SFO"
+        ],
+        [
+          "ICN",
+          "ATL"
+        ],
+        [
+          "SFO",
+          "ATL"
+        ],
+        [
+          "ATL",
+          "ICN"
+        ],
+        [
+          "ATL",
+          "SFO"
+        ]
+      ]
+    ],
+    "expected": [
+      "ICN",
+      "ATL",
+      "ICN",
+      "SFO",
+      "ATL",
+      "SFO"
+    ]
+  }
+]

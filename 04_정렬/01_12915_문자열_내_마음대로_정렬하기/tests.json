@@ -1,0 +1,34 @@
+[
+  {
+    "name": "공개 예제 1",
+    "args": [
+      [
+        "sun",
+        "bed",
+        "car"
+      ],
+      1
+    ],
+    "expected": [
+      "car",
+      "bed",
+      "sun"
+    ]
+  },
+  {
+    "name": "공개 예제 2",
+    "args": [
+      [
+        "abce",
+        "abcd",
+        "cdx"
+      ],
+      2
+    ],
+    "expected": [
+      "abcd",
+      "abce",
+      "cdx"
+    ]
+  }
+]
